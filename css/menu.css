@@ -1,0 +1,141 @@
+@charset "utf-8";
+		#menu {
+	width:300px;
+	margin-bottom:20px;
+	border-right:1px solid #E7E7E7;
+	padding: 0px;
+	margin-top: 0px;
+			}
+		
+	#menu ul {
+	margin-bottom:20px;
+	margin-top: 0px;
+		}
+	#menu ul li {
+	font-family:"Lucida Grande", Verdana, Arial;
+	cursor:pointer;
+	margin: 0px;
+		}	
+	#menu ul li span {
+	padding:0px;
+	display:block;
+	font-size:10px;
+	background-image: url(../images/bg/fbook-silver-bg.png);
+	background-position: 0 0;
+	margin: 0px;
+	background-repeat: repeat-x;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #CCC;
+	}	
+	#menu ul li span:hover {
+	background-image: url(../images/bg/bggoogle.png);
+	background-repeat: repeat-x;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #CCC;
+	}	
+	#menu ul li span.open {
+	background-image: url(../images/bg/fbook-blue-bg.png);
+	background-repeat: repeat-x;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #CCC;
+		}	
+		
+	#menu ul li span a {
+	font-family:Arial;
+	font-weight:bold;
+	font-size:15px;
+	background-position:15px 12px;
+	background-repeat:no-repeat;
+	padding-top: 8px;
+	padding-right: 10px;
+	padding-bottom: 8px;
+	padding-left: 28px;
+	margin: 0px;
+	color: #333;
+	letter-spacing: -1px;
+	display: block;
+		}
+		#menu ul li span a:hover {
+	color:#FFF;
+			}
+		#menu ul li span.open a {
+	color:#FFF;
+			}
+	#menu a {
+		outline:none;
+		}
+			
+	#menu ul li span a#link-posts {
+	background-image:url(../images/icon/settings.png);
+	background-position: 8px;
+	background-repeat: no-repeat;
+		}
+	#menu ul li span a#link-categorias {
+	background-image:url(../images/menu/folder_32.png);
+	background-position: 8px;
+		}
+	#menu ul li span a#link-multimedia {
+	background-image:url(../images/menu/camera_32.png);
+	background-position: 8px;
+		}
+	#menu ul li span a#link-usuarios {
+	background-image:url(../images/menu/users_32.png);
+	background-position: 8px;
+		}
+	#menu ul li span a#link-opciones {
+		background-image:url(i../images/menu/tools_32.png);					
+		}
+		
+	#menu ul li ul{
+	margin-bottom:0px;
+	margin-top: 0px;
+	padding: 0px;
+		}	
+	#menu ul li ul li {
+	display:inline;
+	font-weight:normal;
+	font-size:11px;
+	margin: 0px;
+		}
+		#menu ul li ul li a {
+	display:block;
+	color:#444;
+	background-position:25px 11px;
+	background-repeat:no-repeat;
+	background-color:#FFF;
+	padding-top: 7px;
+	padding-right: 10px;
+	padding-bottom: 7px;
+	padding-left: 12px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #CCC;
+	margin: 0px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+			}
+		#menu ul li ul li a:hover {
+	color:#339;
+	background-color: #D3D8E8;
+			}
+			
+		#menu ul li ul li a.open {
+	background-color: #D3D8E8;
+	color: #36C;
+			}	
+		
+		#menu ul li ul li a.add {
+	background-image:url(../images/flechas/ico_arrow-right.png);
+	background-position: 68%;
+			}
+		#menu ul li ul li a.list {
+	background-image:url(../images/flechas/ico_arrow-right.png);
+	background-position: 68%;
+			}
+		#menu ul li ul li a.bullet {
+			background-image:url(../images/menu/bullet_blue.png);
+			}

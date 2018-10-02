@@ -1,0 +1,106 @@
+#dt_clientes {
+	background-color: #FFFFFF;
+	height: 180px;
+	overflow: auto;
+	padding: 0px;
+}
+#dt_clientes #table_detbuscar {
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-top-color: #CCC;
+	border-right-color: #CCC;
+}
+#dt_clientes #table_detbuscar th{
+	color: #333333;
+	background-image: url(../images/bg/bg_heading.png);
+	background-repeat: repeat-x;
+	padding-top: 3px;
+	padding-right: 10px;
+	padding-bottom: 3px;
+	padding-left: 10px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-bottom-color: #8A8A8A;
+	border-left-color: #8D8D8D;
+	font-family: Arial, Helvetica, sans-serif;
+}
+#dt_clientes #table_detbuscar td{
+	padding-top: 4px;
+	padding-right: 3px;
+	padding-bottom: 4px;
+	padding-left: 2px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-bottom-color: #919191;
+	border-left-color: #929292;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+#table_detbuscar tbody tr:nth-child(odd) td {
+	background-color: #FFF;
+}
+#table_detbuscar tbody tr:nth-child(even) td {
+	background-color: #D3D8E8;
+}#frm_busc_cliente #cont_parametros {
+	background-image: url(../images/bg_facebook/menu_bg.gif);
+	background-repeat: repeat-x;
+	padding-top: 7px;
+	padding-right: 3px;
+	padding-bottom: 7px;
+	padding-left: 8px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #CCC;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+}
+.txt_det_buscar {
+	text-transform: uppercase;
+}
+#table_cont_busq {
+	border: 1px solid #999;
+	font-size: 12px;
+	font-family: arial;
+}
+.bg_grise {
+	background-color: #EAEAEA;
+}
+
+#table_cont_busq th {
+	color: #FFF;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #999;
+	background-image: url(../images/bg/fbook-blue-bg.png);
+	background-repeat: repeat-x;
+}
+#table_cont_busq td {
+	padding-top: 1px;
+	padding-bottom: 0px;
+	font-weight: bold;
+	font-family: 'lucida grande', tahoma, verdana, arial, sans-serif;
+	font-size: 11px;
+	padding-right: 1px;
+	padding-left: 1px;
+}
+#loading_prod {
+	height: 16px;
+	width: 17px;
+}
+.cantidades {
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: bold;
+	color: #000;
+	text-align: center;
+	border: 1px solid #999;
+}

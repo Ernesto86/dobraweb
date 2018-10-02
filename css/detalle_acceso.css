@@ -1,0 +1,56 @@
+#detalle {
+	font-weight: bold;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-top-color: #CCCCCC;
+	border-right-color: #CCCCCC;
+	background-color: #FFF;
+	width: auto;
+}
+#detalle th {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #FFFFFF;
+	background-image: url(../images/bg_facebook/panelCab.png);
+	padding-top: 5px;
+	padding-right: 13px;
+	padding-bottom: 4px;
+	padding-left: 7px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #CCCCCC;
+	vertical-align: middle;
+	border-left-width: 1px;
+	border-left-style: solid;
+	border-left-color: #CCCCCC;
+	background-repeat: repeat-x;
+}
+#detalle td {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+	border-left-width: 1px;
+	border-left-style: solid;
+	border-left-color: #CCCCCC;
+	padding-top: 6px;
+	padding-right: 7px;
+	padding-bottom: 6px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #CCCCCC;
+	width: auto;
+	padding-left: 7px;
+}
+.alternar {
+	background-image: url(../images/facebook/FacBG.png);
+	background-color: #E3E9F1;
+}
+.tdnormal {
+	background-color: #FFFFFF;
+}
+.bg_tdalter {
+	background-color: #E3E9F1;
+}

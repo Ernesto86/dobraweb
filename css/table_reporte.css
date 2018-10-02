@@ -1,0 +1,71 @@
+@charset "utf-8";
+/* CSS Document */
+.cab_title{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+#table_detcliente {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #000;
+}
+#table_detcliente th {
+	color: #000;
+	background-color: #999;
+	padding-top: 1px;
+	padding-bottom: 1px;
+}
+#table_detcliente td {
+	border-bottom-width: 2px;
+	border-bottom-style: solid;
+	border-bottom-color: #666;
+	padding-top: 2px;
+	padding-bottom: 1px;
+	padding-right: 2px;
+	font-size: 11px;
+}
+table.styled {
+	float: left;
+
+}
+table.styled th {
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #000;
+	font-size: 11px;
+	border: 1px solid #000;
+	background-color: #CCC;
+}
+
+table.styled td {
+	font-size: 10px;
+	font-weight: normal;
+	font-family: Arial, Helvetica, sans-serif;
+	border: 1px solid #000;
+	padding-top: 2px;
+	padding-right: 2px;
+	padding-bottom: 0px;
+	padding-left: 2px;
+	margin: 0px;
+}
+.imprimir {
+	float: left;
+	margin-right: 15px;
+	cursor: pointer;
+}
+.tr_color_devol{
+	color: #000000;
+	background-color: #F99;
+}
+.comision_pagada {
+	color: #FFF;
+	background-color: #F66;
+	text-align: center;
+	font-size: 9px;
+}
+#dt_data_table{
+	width: 905px;
+	padding-top: 8px;
+}

@@ -1,0 +1,286 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	margin: 0px;
+	padding: 0px;
+}
+form {
+	margin: 0px;
+	padding: 0px;
+}
+#buscar {
+	background-image: url(../images/bg/cb_buscar.png);
+	background-repeat:  repeat-x;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #CCC;
+	padding-left: 25px;
+	background-color: #FFFFFF;
+	margin: 0px;
+	padding-top: 1px;
+	position: relative;
+	height: 32px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #CCC;
+}
+input, textarea, select {
+	color: #000000;
+	text-shadow: 0 0 1px #FFFFFF;
+	border: 1px solid #CCCCCC;
+	background: -webkit-gradient(linear, left top, left 15, from(#FFFFFF), color-stop(4%, #f4f4f4), to(#FFFFFF));
+	background: -moz-linear-gradient(top, #FFFFFF, #f4f4f4 1px, #FFFFFF 15px);
+	border-radius: 3px;
+	padding-top: 3px;
+	padding-right: 3px;
+	padding-bottom: 3px;
+	padding-left: 4px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	margin-top: 0;
+	margin-right: 3;
+	margin-bottom: 0;
+	margin-left: 0;
+}
+input:focus, textarea:focus, select:focus {	
+box-shadow: 0px 0px 5px #0033CC;
+}
+/*.centrar {
+	overflow: hidden;
+	position: absolute;
+	left: 38%;
+	top: 25%;
+	margin-top: -100px;
+	margin-left: -100px;
+}*/
+.btn_guardar {
+	background-image: url(../images/accion/save-icon.png);
+	background-repeat: no-repeat;
+	background-position: 4px center;
+	height: 30px;
+	width: 95px;
+	border: 1px solid #CCC;
+	padding-left: 26px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #999;
+	cursor: pointer;
+	background-color: #F6F6F6;
+}
+.btn_guardar:hover {
+	border: 1px solid #999;
+	color: #333;
+}
+
+.btn_nuevo {
+	background-image: url(../images/accion/Actions-document-new-icon.png);
+	background-repeat: no-repeat;
+	background-position: 5px center;
+	height: 30px;
+	width: 90px;
+	border: 1px solid #eee;
+	padding-left: 28px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #999;
+	cursor: pointer;
+}
+.btn_nuevo:hover {
+	background-color: #F6F6F6;
+	border: 1px solid #CCC;
+	color: #666;
+}
+
+.btn_buscar {
+	background-image: url(../images/accion/Action-find-icon.png);
+	background-repeat: no-repeat;
+	background-position: 5px center;
+	height: 30px;
+	width: 90px;
+	border: 1px solid #eee;
+	padding-left: 28px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #999;
+	cursor: pointer;
+}
+.btn_buscar:hover {
+	background-color: #F6F6F6;
+	border: 1px solid #CCC;
+	color: #666;
+}
+
+.btn_cancelar {
+	background-image: url(../images/accion/cancel-icon.png);
+	background-repeat: no-repeat;
+	background-position: 4px center;
+	height: 30px;
+	width: 95px;
+	border: 1px solid #CCC;
+	padding-left: 26px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #999;
+	cursor: pointer;
+	background-color: #F6F6F6;
+}
+.btn_cancelar:hover {
+	border: 1px solid #999;
+	color: #333;
+}
+
+.btn_actualizar {
+	background-image: url(../images/accion/refresh.gif);
+	background-repeat: no-repeat;
+	background-position: 4px center;
+	height: 30px;
+	width: 98px;
+	border: 1px solid #CCC;
+	padding-left: 26px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #999;
+	cursor: pointer;
+	background-color: #F6F6F6;
+}
+.btn_actualizar:hover {
+	background-color: #F6F6F6;
+	border: 1px solid #999;
+	color: #333;
+}
+#title_form {
+	float: left;
+	font-family: 'lucida grande', arial;
+	font-size: 18px;
+	font-weight: bolder;
+	color: #666;
+	margin-top: 6px;
+	margin-left: 3px;
+}
+#btns_accion {
+	float: right;
+	margin-right: 35px;
+	border: 1px solid #eee;
+	border-radius: 3px;
+}
+.error {
+font-family: Arial, Helvetica, sans-serif;
+font-size: 10px;
+color: #FF3366;
+background-image: url(../images/cancel.png);
+background-repeat: no-repeat;
+background-position: left center;
+width: auto;
+padding-top: 2px;
+padding-right: 2px;
+padding-bottom: 2px;
+padding-left: 20px;
+border: 2px solid #FF9999;
+background-color: #FFFFFF;
+font-weight: normal;
+position: absolute;
+margin: 0px;
+}
+#table_datos {
+	border: 1px solid #CCCCCC;
+	background-color: #EAEAEA;
+}
+#table_datos td {
+	padding-left: 6px;
+	padding-top: 5px;
+	padding-right: 4px;
+	padding-bottom: 4px;
+	margin: 0px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.bg_cab_title {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #333333;
+	background-image: url(../images/bg/bg_heading.png);
+	background-repeat:  repeat-x;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #CCC;
+	margin: 0px;
+	text-transform: capitalize;
+	height: 22px;
+	padding: 0px;
+}
+.bg_btn {
+	background-image: url(../images/bg/menu-bg_03.png);
+	border: 1px solid #CCCCCC;
+	background-repeat: repeat-x;
+	height: 34px;
+}
+
+.loading {
+	background-repeat: no-repeat;
+	background-position: center center;
+	margin: 0px;
+	height: 32px;
+	background-image: url(../images/load/loader.gif);
+	padding: 0px;
+}
+#loading {
+	padding: 0px;
+	height: 20px;
+}
+#contenedor {
+	margin-top: 5%;
+}
+.icon_trans {
+	float: left;
+	margin-left: 5px;
+	margin-right: 7px;
+}
+.btn_gclave {
+	background-image: url(../images/icon/unlocked.png);
+	background-repeat: no-repeat;
+	background-position: 5px;
+	background-color: #F3F3F3;
+	border: 1px solid #CCC;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bolder;
+	color: #666;
+	padding-left: 26px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	padding-right: 4px;
+}
+.btn_gclave:hover{
+	border: 1px solid #666;
+	color: #333;
+}
+
+.btn_gcuenta {
+	background-image: url(../images/icon/male.png);
+	background-repeat: no-repeat;
+	background-position: 5px;
+	background-color: #F3F3F3;
+	border: 1px solid #CCC;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bolder;
+	color: #666;
+	padding-left: 25px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	padding-right: 6px;
+}
+.btn_gcuenta:hover{
+	border: 1px solid #666;
+	color: #333;
+}
